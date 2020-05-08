@@ -1,0 +1,107 @@
+nav {
+  background: #444444;
+  height: 0px;
+}
+
+.brand-logo {
+  left: 8%;
+  margin-top: 4%;
+}
+li {
+  margin-top: 10%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  color: #ffffff;
+}
+.nav-menu {
+  font-size: 20px;
+}
+
+nav ul a:hover {
+  background-color: rgba(0, 0, 0, 0) !important;
+  color: #38aac3;
+  -webkit-transition: 0.5s;
+}
+
+.nav-menudviv {
+  margin-top: 10px;
+  margin-right: 110px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+}
+
+footer{
+position: absolute;
+display: flex;
+color:#fff;
+bottom: 0;
+text-align: center;
+align-items: center;
+left: 45%;
+top:90%;
+padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .sidenav {
+    color: #fff;
+    font-size: 30px;
+    background-color: #444444;
+    width: 45%;
+  }
+  .sidenav li a {
+    color: #fff;
+    font-size: 20px;
+    background-color: #444444;
+    width: 70%;
+    font-weight: bold;
+  }
+  .brand-logo {
+    margin-left: 60px;
+    margin-top: 4%;
+  }
+  #hambu {
+    margin-top: 1px;
+    font-size: 40px;
+  }
+  img {
+    margin-top: 30%;
+    margin-left: -40%;
+  }
+  .footer {
+    display: none;
+  }
+}
+
+@media only screen and (device-width: 768px) {
+  .brand-logo {
+    margin-left: 140px;
+    margin-top: 4%;
+  }
+  .sidenav {
+    color: #fff;
+    font-size: 30px;
+    background-color: #444444;
+    width: 45%;
+  }
+  .sidenav li a {
+    color: #fff;
+    font-size: 20px;
+    background-color: #444444;
+    width: 70%;
+    font-weight: bold;
+  }
+  #hambu {
+    margin-top: 19px;
+    font-size: 90px;
+  }
+  img {
+    margin-top: 30%;
+    margin-left: -90%;
+  }
+  .footer {
+    display: none;
+  }
+}

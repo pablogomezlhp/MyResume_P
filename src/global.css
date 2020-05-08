@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+
+body{
+  font:400 14px Inter, sans-serif;
+  background: #444444;
+  -webkit-font-smoothing:antialized;
+
+}
+.material-icons{
+  margin-top: 0;
+  padding: 0;
+}
+
+
+.footer{
+  background: #444444;
+  bottom: 0;
+  position: fixed;
+  left:0;
+  width:100%;
+
+}
+.pfoot{
+  text-align: center;
+  color: white;
+  background: #444444;
+  padding-bottom: 50px;
+  font-size: 1.2vw;
+}

@@ -1,0 +1,92 @@
+.main-container {
+  height: 100vh;
+}
+.main-text-1 {
+  padding-left: 13%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 8vw;
+  line-height: 133px;
+  padding-top: 10%;
+  color: #38aac3;
+}
+.main-text-2 {
+  position: absolute;
+  width: 1000px;
+  padding-left: 13%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 8vw;
+
+  color: #444444;
+  text-shadow: rgb(131, 140, 145) 1px 0px 0px,
+    rgb(131, 140, 145) 0.540302px 0.841471px 0px,
+    rgb(131, 140, 145) -0.416147px 0.909297px 0px,
+    rgb(131, 140, 145) -0.989992px 0.14112px 0px,
+    rgb(131, 140, 145) -0.653644px -0.756802px 0px,
+    rgb(131, 140, 145) 0.283662px -0.958924px 0px,
+    rgb(131, 140, 145) 0.96017px -0.279415px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-text-1 {
+    margin-left: -6%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11vw;
+    line-height: 133px;
+    padding-top: 30%;
+    color: #38aac3;
+  }
+  #textow {
+    margin-left: -6%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11vw;
+    line-height: 133px;
+    padding-top: 10%;
+    color: #38aac3;
+  }
+  .main-text-2 {
+    margin-left: -6%;
+    width: 100px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13vw;
+  }
+  .mobile-demo {
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (device-width: 768px) {
+  .main-text-1 {
+    margin-left: -6%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11vw;
+    line-height: 133px;
+    padding-top: 30%;
+    color: #38aac3;
+  }
+  .main-text-2 {
+    margin-left: -6%;
+    width: 100px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13vw;
+  }
+  .mobile-demo {
+    margin-top: 100px;
+  }
+  img {
+    margin-left: -90%;
+  }
+}

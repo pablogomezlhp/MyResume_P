@@ -1,0 +1,219 @@
+
+.about-text-1 {
+  padding-top: 8vw;
+  margin-left: 30vw;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10vw;
+  line-height: 145px;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #38aac3;
+
+  color: transparent;
+}
+
+.about-text-3 {
+  width: 550px;
+  margin-left: 43vw;
+  margin-top: 50px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #ffffff;
+  text-align: justify;
+}
+.btn {
+  background: #444444;
+  border: 2px solid;
+  border-radius: 8px;
+  border-color: #38aac3 !important;
+  color: #38aac3;
+  margin-left: 43vw;
+  margin-top: 2%;
+  font-size: 12px;
+  text-align: center;
+  transition: 1s !important;
+}
+.btn:hover {
+  background: #38aac3;
+  color: #fff;
+  filter: brightness(90%);
+}
+#about-image {
+  margin-top: 13vw;
+  position: absolute;
+  width: 29vw;
+  height: 40vw;
+  left: 8%;
+}
+
+.media-icon {
+  margin-top: 3vw;
+  margin-left: 30px;
+  padding: 5px;
+  display: inline;
+  font-size: 80px;
+  color: #38aac3;
+}
+.media-icon:hover {
+  color: rgb(131, 140, 145);
+  -webkit-transition: 0.9s;
+}
+#icones-adjust {
+  margin-left: 41vw;
+}
+
+@media only screen and (max-width: 600px) {
+  .about-text-1 {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+    margin-top: 120vw;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11vw;
+    line-height: 100%;
+
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #38aac3;
+  }
+
+  .about-text-3 {
+    width: 350px;
+    padding-top: 10%;
+    margin: 0;
+    padding-right: 16px;
+    padding-left: 16px;
+    font-family: Inter;
+    font-style: normal;
+
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #ffffff;
+    text-align: justify;
+    justify-content: center;
+  }
+  #about-image {
+    margin-left: 25px;
+    padding: 0;
+    margin-top: 35vw;
+    width: 70vw;
+    height: 70vw;
+    align-items: center;
+    justify-content: center;
+  }
+  .btn {
+    background: #38aac3;
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: filter 0.9s;
+  }
+
+  .media-icon {
+    margin-top: 10%;
+    font-size: 50px;
+    color: #38aac3;
+  }
+  .media-icon:hover {
+    color: rgb(131, 140, 145);
+    -webkit-transition: 0.9s;
+  }
+  #icones-adjust {
+    margin: 0;
+  }
+
+  .btn {
+    background: #444444;
+    border: 2px solid;
+    border-radius: 8px;
+    border-color: #38aac3 !important;
+    color: #fff;
+    margin-left: 130px;
+    margin-top: 10%;
+    font-size: 8px;
+    text-align: center;
+    transition: 1s !important;
+  }
+}
+
+@media only screen and (device-width: 768px) {
+  .about-text-1 {
+    margin: 0;
+    padding: 0;
+    padding-top: 130px;
+    align-items: center;
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9vw;
+    line-height: 145px;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #38aac3;
+
+    color: transparent;
+  }
+
+  #about-image {
+    margin-left: 25px;
+    margin-top: 45vw;
+    width: 600px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .about-text-3 {
+    width: 700px;
+    padding-top: 95%;
+    padding-right: 16px;
+    padding-left: 56px;
+    font-family: Inter;
+    font-style: normal;
+    margin: 0;
+    font-size: 30px;
+    line-height: 60px;
+
+    color: #ffffff;
+    text-align: justify;
+    justify-content: center;
+  }
+
+  .btn {
+    background: #444444;
+    border: 2px solid;
+    border-radius: 8px;
+    border-color: #38aac3 !important;
+    color: #fff;
+    margin-left: 290px;
+    margin-top: 10%;
+    font-size: 18px;
+    text-align: center;
+    transition: 1s !important;
+  }
+
+  .media-icon {
+    margin-top: 8%;
+    font-size: 120px;
+    color: #38aac3;
+    padding: 15px;
+  }
+  .media-icon:hover {
+    color: rgb(131, 140, 145);
+    -webkit-transition: 0.9s;
+  }
+  #icones-adjust {
+    margin: 0;
+    padding-left: 80px;
+  }
+}
