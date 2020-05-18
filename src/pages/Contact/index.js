@@ -8,13 +8,17 @@ import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import "./style.css";
 
 export default function Contact() {
+
+
   function sendEmail(e) {
     e.preventDefault();
 
+    // Getting user input
     const name = document.getElementById("name");
     const email = document.getElementById("email");
     const message = document.getElementById("message");
 
+    //Sending data to a Emailjs
     emailjs
       .send(
         "outlook",
@@ -77,7 +81,7 @@ export default function Contact() {
         <a
           href="https://wa.me/3530896065434?text=
 Hello,%20I'm%20getting%20in%20touch%20about%20..."
-          target="_blank"
+          target="_blank" rel="noopener noreferrer"
         >
           <FontAwesomeIcon className="contact-icon" icon={faWhatsapp} />
         </a>

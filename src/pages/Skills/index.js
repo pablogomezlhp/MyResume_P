@@ -38,7 +38,7 @@ export default function Skill() {
               </p>
               <a
                 href="https://milestoneproject04pablosilva.herokuapp.com/"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
                 className="project-button btn"
               >
                 VISIT
@@ -59,7 +59,7 @@ export default function Skill() {
               </p>
               <a
                 href="https://github.com/pablogomezlhp/be-the-hero-App"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
                 className="project-button btn"
               >
                 VISIT
@@ -78,7 +78,7 @@ export default function Skill() {
               </p>
               <a
                 href="https://pablogomezlhp.github.io/codeproject-milestone/"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
                 className="project-button btn"
               >
                 VISIT
@@ -98,7 +98,7 @@ export default function Skill() {
               </p>
               <a
                 href="https://pablogomezlhp.github.io/TestNonius/"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
                 className="project-button btn"
               >
                 VISIT
@@ -117,7 +117,64 @@ export default function Skill() {
               </p>
               <a
                 href="https://github.com/pablogomezlhp/dorsetproject.io"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
+                className="project-button btn"
+              >
+                VISIT
+              </a>
+            </div>
+          </div>
+        </Animated>
+        <Animated animationIn="flipInY" animationindelay={500} isVisible={true}>
+          <div className="item7">
+            <div className="item-block">
+              <p className="project-title">DUBLIN BIKE API</p>
+              <p className="project-subtitle">FIND A CLOSEST STATION</p>
+
+              <p className="project-desc">
+                Simple App Developed with React Native, React-native-maps, Google-auto-complete{" "}
+              </p>
+              <a
+                href="https://github.com/pablogomezlhp/Dublin_bike_ReactNative"
+                target="_blank" rel="noopener noreferrer"
+                className="project-button btn"
+              >
+                VISIT
+              </a>
+            </div>
+          </div>
+        </Animated>
+        <Animated animationIn="flipInY" animationindelay={500} isVisible={true}>
+          <div className="item8">
+            <div className="item-block">
+              <p className="project-title">EXERCISE LOG</p>
+              <p className="project-subtitle">M.E.R.N APLICATION</p>
+
+              <p className="project-desc">
+                ToDoList - Developed with NodeJS, MongoDB(Mongoose) and ReactJS.{" "}
+              </p>
+              <a
+                href="https://github.com/pablogomezlhp/Mosaic_ToDoList"
+                target="_blank" rel="noopener noreferrer"
+                className="project-button btn"
+              >
+                VISIT
+              </a>
+            </div>
+          </div>
+        </Animated>
+        <Animated animationIn="flipInY" animationindelay={500} isVisible={true}>
+          <div className="item9">
+            <div className="item-block">
+              <p className="project-title">GET WEATHER API</p>
+              <p className="project-subtitle">SIMPLE WEBPAGE - CITY WEATHER </p>
+
+              <p className="project-desc">
+                Developed with JavaScript. Bootstrap{" "}
+              </p>
+              <a
+                href="https://pablogomezlhp.github.io/ThOpenWheather_Project_Code/"
+                target="_blank" rel="noopener noreferrer"
                 className="project-button btn"
               >
                 VISIT

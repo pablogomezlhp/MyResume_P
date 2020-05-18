@@ -47,7 +47,7 @@ in Python using Django / Flask.
             >
               <a
                 href="https://docs.google.com/document/d/1YlwbvGBJOnZoqcqAM7ZpfddWz7Gb5iRu8x7lpPSkioQ/edit?usp=sharing"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
                 className="waves-effect waves-light btn"
               >
                 Download CV
@@ -60,19 +60,19 @@ in Python using Django / Flask.
               animationInDelay={2000}
               isVisible={true}
             >
-              <a href="https://github.com/pablogomezlhp" target="_blank">
+              <a href="https://github.com/pablogomezlhp" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon className="media-icon" icon={faGithubSquare} />
               </a>
-              <a href="https://www.facebook.com/profile.php?id=100012549616547"target="_blank">
+              <a href="https://www.facebook.com/profile.php?id=100012549616547"target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon
                   className="media-icon"
                   icon={faFacebookSquare}
                 />
               </a>
-              <a href="https://www.linkedin.com/in/pablopgsilva/" target="_blank">
+              <a href="https://www.linkedin.com/in/pablopgsilva/" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon className="media-icon" icon={faLinkedin} />
               </a>
-              <a href="https://www.instagram.com/pablogomez.lhp/" target="_blank">
+              <a href="https://www.instagram.com/pablogomez.lhp/" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon
                   className="media-icon"
                   icon={faInstagramSquare}

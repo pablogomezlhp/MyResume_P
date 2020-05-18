@@ -1,10 +1,9 @@
 import React from 'react';
-import 'materialize-css/dist/css/materialize.min.css';
 
+//Importig css
 import './global.css';
 
 import Routes from './routes';
-
 
 function App() {
   return (

@@ -1,13 +1,14 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
+//Importing pages
 import Home from './pages/Home';
 import About from './pages/About';
 import Skill from './pages/Skills';
 import Contact from './pages/Contact';
 import Navbar from './pages/Navbar';
 
-
+//Setting Routes
 export default function Routes(){
   return (
     <BrowserRouter>

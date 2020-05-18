@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import logoImage from "../../assets/logo.svg";
-import "materialize-css/dist/css/materialize.min.css";
+
 import "./style.css";
 
 class Navbar extends Component {
   componentDidMount() {
+
+    //Getting a Mobile/Ipad Menu
     const M = window.M;
     document.addEventListener("DOMContentLoaded", function () {
       var elems = document.querySelectorAll(".sidenav");
@@ -20,14 +22,14 @@ class Navbar extends Component {
           <nav>
             <div className="nav-wrapper">
               <a to="/" data-target="mobile-demo" className="sidenav-trigger">
-                <i id="hambu" class="material-icons">
+                <i id="hambu" className="material-icons">
                   menu
                 </i>
               </a>
-              <a href="/" class="brand-logo">
+              <a href="/" className="brand-logo">
                 <img src={logoImage} alt="" />
               </a>
-              <ul class="right hide-on-med-and-down">
+              <ul className="right hide-on-med-and-down">
                 <div className="nav-menudviv">
                   <li>
                     <NavLink className="nav-menu" to="/">

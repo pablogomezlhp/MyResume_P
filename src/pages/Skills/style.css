@@ -99,7 +99,19 @@
   height: 300px;
 }
 .item7 {
-  background-image: url("../../assets/07.gif");
+  background-image: url("../../assets/08.gif");
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+.item8 {
+  background-image: url("../../assets/17.gif");
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+.item9 {
+  background-image: url("../../assets/09.gif");
   background-size: cover;
   width: 100%;
   height: 300px;
@@ -110,7 +122,24 @@
 .item6:hover {
   background: #444444;
 }
-
+.item7:hover .item-block {
+  display: block;
+}
+.item7:hover {
+  background: #444444;
+}
+.item8:hover .item-block {
+  display: block;
+}
+.item8:hover {
+  background: #444444;
+}
+.item9:hover .item-block {
+  display: block;
+}
+.item9:hover {
+  background: #444444;
+}
 .project-title {
   font-size: 30px;
   padding-top: 2.5vw;
@@ -159,8 +188,18 @@
 }
 
 .container-skill {
-  margin-bottom: 40vw;
+  margin-bottom: 70vw;
 }
+footer {
+  position: absolute;
+  display: flex;
+  color:#fff;
+  bottom: 0;
+  text-align: center;
+  align-items: center;
+  left: 45%;
+  margin-top: 30vw;
+  }
 
 @media only screen and (max-width: 600px) {
   .grid-container {
