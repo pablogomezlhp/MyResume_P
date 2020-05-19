@@ -1,9 +1,6 @@
 {
   "name": "resume",
   "version": "0.1.0",
-  "engines": {
-    "node": "12.14.1"
-  },
   "private": true,
   "dependencies": {
     "@babel/cli": "^7.8.4",

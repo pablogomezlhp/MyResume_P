@@ -183,6 +183,7 @@ export default function Skill() {
           </div>
         </Animated>
       </div>
+      <footer id="fot">2020 @PABLO GOMES</footer>
     </div>
   );
 }

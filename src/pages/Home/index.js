@@ -14,7 +14,7 @@ export default function Home() {
             animationInDelay={600}
             isVisible={true}
           >
-            <p className="main-text-1">I AM.. </p>
+            <p className="main-text-1">I AM... </p>
           </Animated>
           <p className="main-text-2">
             <Typical
